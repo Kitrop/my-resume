@@ -9,10 +9,11 @@ html {
     --main-background: #ffffff;
     --header-color: #58a4ce;
     --panel-background: #22405b;
+    --panel-second-background: #2a5875;
 }
 
 body {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     margin: 0;
     display: flex;
     font-size: 32px;
@@ -32,7 +33,7 @@ main {
 
 .panel {
     width: 35%;
-    background-color: var(--panel-background);
+    background: linear-gradient(153deg, var(--panel-background) 0%, var(--panel-second-background) 100%);
     color: var(--font-color-light);
     padding: 40px;
 
